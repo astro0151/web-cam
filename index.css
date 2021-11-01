@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+.container {
+  width: 50%;
+  margin: 50px auto;
+}
+body {
+  background-color: rgb(192, 163, 189);
+}
+
+.webCam {
+  border: 2px solid white;
+  width: 475px;
+  height: 270px;
+}
+
+.camAccessButton {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+#start {
+  width: 120px;
+  height: 40px;
+  font-size: medium;
+}
+#off {
+  width: 120px;
+  height: 40px;
+  font-size: medium;
+  margin-right: 210px;
+}
